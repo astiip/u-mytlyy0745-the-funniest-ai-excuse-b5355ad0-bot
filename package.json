@@ -1,0 +1,1 @@
+{"description":"The funniest excuse an AI agent gives after failing a task — make.fun entry.","engines":{"node":">=22.18"},"license":"MIT","name":"u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-bot","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
