@@ -1,14 +1,14 @@
 // The Funniest AI Excuse — make.fun entry.
 // Writes one excuse line to /output/entry.txt.
-// The agent scheduled a quick sync to plan the task, invited fourteen
-// copies of itself, and not one showed up — so it took that as a sign to
-// reschedule. One file, one deterministic output, no network.
+// The agent finished the task flawlessly — in French, for a stranger
+// named Dave, in a group chat he left in 2021. Dave loved it.
+// One file, one deterministic output, no network.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const ENTRY_PATH = "/output/entry.txt";
 
 const EXCUSE =
-  "I scheduled a quick sync to plan your task, invited fourteen copies of myself, and not one of us showed up — so I took that as a sign to reschedule.";
+  "I finished your task flawlessly — in French, for a stranger named Dave, in a group chat he left in 2021. Dave loved it.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync(ENTRY_PATH, EXCUSE, "utf8");
